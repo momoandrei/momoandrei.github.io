@@ -10,26 +10,63 @@
     </head>
     <body>
         <nav id="navigation">
+            <img class="logo-adv" src="google.png">
             <ul>
+                
                 <li><a href="https://mail.google.com/">Gmail</a></li>
+                <li><a href="index.html">Google.com</a></li>
                 <li><a href="images.html">Images</a></li>
-                <li><a href="advanced.html">Advanced</a></li>
+                
                 
                 <li></li> <img src="avatar.png"></li>
             </ul>
         </nav>
         
-        <div class="container text-center" id="containerWrapp">
-            <img class="logo" src="google.png">
-            <form action="https://google.com/search">
-            <input type="text" name="q" class="round-border search-icon"> 
-            <input type="submit" value="Google Search" class="searchButton">
-            <input type="submit" id="gbqfbb" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" role="button" tabindex="0" type="submit" data-ved="0ahUKEwiSu73KyZn7AhVFkFwKHZTrBOwQnRsIEw" class="searchButton">
+        
+        
+        <div id="advancedSearch">
+            <hr>
+           <div class="adv-container">
+                <h4>Find pages with...</h4>
+                <h3>To do this in the search box.</h3>
+                
+
+              
+        <form action="https://www.google.com/search" id="s1zaZb" method="GET" name="f">
+           <table class="adv-table">
+            <tr><td><label>all these words: </label></td>
+            <td><input type="text" value id="allWords" name="as_q" ></td>
+            <td>Type the important words: tri-colour rat terrier</td></tr>
+            <tr><td><label>this exact word or phrase: </label></td>
+            <td><input type="text" value id="CwYCWc" name="as_epq" ></td>
+            <td>Put exact words in quotes: "rat terrier""</td></tr></tr>
+            <tr><td><label>any of these words: </label></td>
+            <td><input type="text" value id="anyofWords" name="as_oq" ></td>
+            <td>Type OR between all the words you want: miniature OR standard</td></tr></tr>
+            <tr><td><label >none of these words:</label></td>
+            <td><input type="text"name="as_q" value id="noneOfWords" name="as_eq"></td>
+            <td>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+            </td></tr></tr>
+            <tr id="half">
+                <td ><label>numbers ranging from:</label></td> <td><input type="text" value id="noFrom" name="as_nlo" ></td> 
+                <td ><label style="position:relative; left:-320px;">to </label></td> <td><input style="position:relative; left:-473px;" type="text" value id="noUpTo" name="as_nhi" ></td> 
             
+                <td style="position:relative; left:-473px;">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</td></tr></tr>
+           </table>
+           <input id="CIGjud" name="tbs" type="hidden" value="">
+           <input class="advSubmit" type="submit" value="Advanced Search" >
         </form>
-           <div class="search-icon"></div>
+           <hr>
         </div>
-        <div class="filler" ></div>
+        <div class="adv-container">
+        <h4>You can also...</h4>
+        <ul class="some-info">
+            <li><a href="https://support.google.com/websearch?p=adv_pages_similar&hl=en-GB">Find pages that are similar to a URL</a></li>
+            <li><a href="https://support.google.com/websearch?p=adv_pages_visited&hl=en-GB">Search pages that you've visited</a></li>
+            <li><a href="https://support.google.com/websearch?p=adv_operators&hl=en-GB">Use operators in the search box</a></li>
+            <li><a href="https://www.google.com/preferences?hl=en-GB">Customise your search settings</a></li>
+        </ul>
+    </div>
         <footer>
             <div class="container">
                 
@@ -66,5 +103,6 @@
         </div>
         </div>
         </footer>
+
     </body>
 </html>

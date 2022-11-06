@@ -1,0 +1,294 @@
+body {
+    padding-bottom: 0px;;
+}
+#navigation > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+#navigation >ul > li >a {
+   
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    font-weight: 10;
+}
+#navigation >ul > li >a:hover {
+   
+    text-decoration: underline;
+    color: black;
+}
+#navigation >ul > li  {
+    margin-top:5px;
+    padding:10px;
+    
+}
+#navigation >ul>img {
+    margin:10px;
+    margin-right:15px;
+    width:32px !important;
+    height:32px;
+    cursor:pointer;
+}
+
+.logo {
+    width:272px;
+    height:92px;
+}
+
+#containerWrapp {
+    margin-top:110px;
+}
+#containerWrapp > p {
+  
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    display:absolute;
+    margin-left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+}
+.round-border {
+    display: flex;
+    z-index: 3;
+    height: 45px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(632px + 6px);
+    width: 584px;
+    max-width: 584px;
+    margin-top:26px;
+}
+.searchButton {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin-top:30px;
+}
+.searchButton:hover { box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+background-color: #f8f9fa;
+border: 1px solid #dadce0;
+color: #202124;
+}
+
+.search-icon {
+    background: url("search.png");
+    background-position: left;
+    background-position: 8px;
+    
+    background-size: 15px;
+    padding-left:40px;
+    padding-right:40x;
+    background-repeat: no-repeat;
+}
+
+/* Advanced search page style */
+#navigation > .logo-adv {   
+        margin-left:20px;
+        margin-top:22px;
+        width: 74px;
+        height:24px;
+        z-index:9999 !important;
+        position: absolute;
+}
+.p-adv >p {
+    color: #d93025;
+    font-size: 20px;
+    font-weight: 450;
+    margin: 32px 45px;
+}
+hr {
+    margin-top:-10px;
+}
+#advancedSearch {
+    top:-5px;
+    position:relative;
+}
+.adv-container {
+    padding:45px;
+}
+.adv-container > h4 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    padding-bottom: 15px;
+    
+}
+
+
+
+td >  input {
+    width:572px !important;
+    height:29px;
+    margin-left:5px;
+    margin-right:5px;
+}
+td > label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 14px;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+#half > td > input {
+    width:240px !important;
+}
+td {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 12px;
+    
+}
+.advSubmit{
+    width:120px;
+    height:30px;
+    font-weight: bold;;
+    padding:4px;
+    font-size:12px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    margin:auto 555px;
+    
+}
+.advSubmit:hover {
+    font-size:12px;
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: linear-gradient(top,#4d90fe,#357ae8);
+    border: 1px solid #2f5bb7;
+    border-image: initial;
+    color:white;
+}
+h3 {
+    float: right;
+    /* display: inline-block; */
+    width: 33%;
+    font-size: 15px !important;
+    font-weight: 700;
+    color: #777777;
+    padding-left: 5px;
+    vertical-align: middle;
+    margin-right: 300px;
+    padding-bottom: 5px;
+}
+footer {
+    background-color: #f2f2f2;
+    width:100%;
+    height:120px;
+  
+    display:block;
+    position:absolute;
+
+}
+/* footer > p{ 
+    padding-top: 10px;
+    padding-left: 30px;
+} */
+.footer > ul {
+    list-style-type:none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: -50px;
+    
+}
+
+.footer > ul > li >a {
+    padding:10px;
+    text-decoration: none;
+    color: black;
+}
+.footer > ul > li >a:hover {
+    text-decoration: underline;
+}
+
+.footer-right > ul {
+    list-style-type:none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: -50px;
+    
+}
+
+.footer-right > ul > li >a {
+    padding:10px;
+    text-decoration: none;
+    color: black;
+}
+.footer-right > ul > li >a:hover {
+    text-decoration: underline;
+}
+.footer-center > ul {
+    list-style-type:none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -50px;
+    
+}
+
+.footer-center > ul > li >a {
+    padding:10px;
+    text-decoration: none;
+    color: black;
+}
+.footer-center > ul > li >a:hover {
+    text-decoration: underline;
+}
+.some-info > li {
+    list-style-type:none;
+    font-size:14px;
+    margin-left:-30px;
+    text-decoration: none;
+  
+}
+.adv-container > ul > li > a {
+    text-decoration: none !important;
+}
+.adv-container > ul > li > a:hover {
+    text-decoration: underline !important;
+}
+.filler {
+    height:230px !important;
+}
